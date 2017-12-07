@@ -1,19 +1,30 @@
 //Global
 $main-color: #9a7b13;
+$sans: "Work Sans";
+$serif: "Rokkitt";
+
+html, body{
+  font-family: $sans;
+}
+
+.container{
+  max-width: 1250px;
+}
 
 //Nav bar
 .navbar {
-  padding: 1.75rem 1rem 0 1rem;
+  padding: 4rem 0 0 0;
   text-transform: uppercase;
-  font-size: 0.9rem;
-  letter-spacing: 0.08rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
 
   @media (max-width: 992px){
   padding: 1.75rem 1rem 0 1.75rem;
   }
 
   .navbar-brand {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    letter-spacing: 1rem;
   }
 
   .navbar-nav .active>.nav-link{
@@ -30,13 +41,12 @@ $main-color: #9a7b13;
     .navbar-nav{
       .nav-link {
           padding-right: 0rem;
-          padding-left: 1rem;
+          padding-left: 1.5rem;
           color: $main-color;
       }
     }
   }
 }
-
 #logo {
     text-align: center;
     text-transform: uppercase;
@@ -44,4 +54,53 @@ $main-color: #9a7b13;
     position: relative;
     padding: 0;
     color: $main-color;
+}
+
+#sun{
+  padding: 1rem 0 3rem 0;
+}
+
+//card
+.card{
+  border: none;
+}
+
+//info
+#info{
+  padding: 4rem 1.25rem;
+}
+
+#infoHeader{
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+
+#infoText{
+  font-family: $serif;
+  letter-spacing: 0.1rem;
+}
+
+//pair imgs
+#imgPair{
+  padding: 3rem 4rem;
+
+  @media(max-width: 900px){
+    padding: 2rem 3rem;
+  }
+
+  @media(max-width: 899px) and (min-width: 577px){
+    padding: 0 0;
+  }
+
+  @media (max-width: 576px){
+    padding: 2rem 0;
+  }
+}
+
+//Story
+#story{
+  font-family: $serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
 }

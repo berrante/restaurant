@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/styles/style.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500|Rokkitt:200" rel="stylesheet">
     <title>Restaurant Mock Up</title>
   </head>
 
@@ -41,7 +43,7 @@
 
     <!-- LOGO -->
     <div class="container text-center">
-      <img src="assets/imgs/logo.png" class="img-fluid" width="50px"/>
+      <img src="assets/imgs/logo.png" class="img-fluid" id="sun" width="50px"/>
 
       <!-- CAROUSEL -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -68,21 +70,37 @@
         <div class="col-12 col-sm-4 col-lg-4">
           <div class="card">
             <div class="card-body">
-              Location
+              <p id="infoHeader">
+                Location
+              </p>
+              <p id="infoText">
+                123 Union St<br />Brooklyn, New York 12345
+              </p>
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-4 col-lg-4">
           <div class="card">
             <div class="card-body">
-              Hours
+              <p id="infoHeader">
+                Hours
+              </p>
+              <p id="infoText">
+                Monday - Friday : 6am - 9pm<br />Saturday & Sunday : 7am - 7pm
+              </p>
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-4 col-lg-4">
           <div class="card">
             <div class="card-body">
-              Contact
+              <p id="infoHeader">
+                Contact
+              </p>
+              <p id="infoText">
+                123.456.7890<br />
+                email@email.com
+              </p>
             </div>
           </div>
         </div>
@@ -91,10 +109,10 @@
       <!-- IMAGE PAIR -->
       <div class="row align-items-center">
         <div class="col-12 col-sm-6 col-lg-6">
-          <img src="assets/imgs/daybreak1.jpeg" class="img-fluid"/>
+          <img src="assets/imgs/daybreak1.jpeg" class="img-fluid" id="imgPair"/>
         </div>
         <div class="col-12 col-sm-6 col-lg-6">
-          <img src="assets/imgs/daybreak2.jpeg" class="img-fluid"/>
+          <img src="assets/imgs/daybreak2.jpeg" class="img-fluid" id="imgPair"/>
         </div>
       </div>
 
