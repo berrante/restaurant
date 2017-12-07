@@ -9,24 +9,21 @@
   .navbar .navbar-brand {
     font-size: 0.9rem; }
   .navbar .navbar-nav .active > .nav-link {
-    color: pink; }
+    color: #9a7b13; }
   .navbar a:hover {
-    background-image: linear-gradient(to bottom, pink 0, pink 100%);
-    background-repeat: repeat-x;
-    background-size: 0.1rem 0.1rem;
-    text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
-    background-position: 0 2rem; }
+    color: #9a7b13; }
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0rem;
-    padding-left: 1rem; } }
+    padding-left: 1rem;
+    color: #9a7b13; } }
 #logo {
   text-align: center;
   text-transform: uppercase;
   display: inline;
   position: relative;
   padding: 0;
-  color: pink; }
+  color: #9a7b13; }
 
 /*# sourceMappingURL=style.css.map */

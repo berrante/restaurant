@@ -1,4 +1,6 @@
-$main-color: pink;
+//Global
+$main-color: #9a7b13;
+
 //Nav bar
 .navbar {
   padding: 1.75rem 1rem 0 1rem;
@@ -15,15 +17,11 @@ $main-color: pink;
   }
 
   .navbar-nav .active>.nav-link{
-    color: pink;
+    color: $main-color;
   }
 
   a:hover{
-    background-image: linear-gradient(to bottom, pink 0, pink 100%);
-    background-repeat: repeat-x;
-    background-size: 0.1rem 0.1rem;
-    text-shadow: 2px 0px #f3f3f3, 2px 0px #f3f3f3, 1px 1px #f3f3f3, -1px 0 #f3f3f3, -2px 0 #f3f3f3, -3px 0 #f3f3f3, -3px -1px #f3f3f3;
-    background-position: 0 2rem;
+    color: $main-color;
   }
 }
 
@@ -33,6 +31,7 @@ $main-color: pink;
       .nav-link {
           padding-right: 0rem;
           padding-left: 1rem;
+          color: $main-color;
       }
     }
   }
